@@ -29,24 +29,32 @@ function run() {
         this.score = type == 1 ? 1000 : type == 2 ? 3000 : 8000; // 分数
         this.status = true; // false时表示飞机被摧毁
     }
+    function  cartridge() {
+        this.img = oimgarr['cartridge.png'];
+        this.x = me.x + me.img.width / 2;
+        this.y = me.y - 20;
+    }
     var bg = { // 背景对象
         img: oimgarr['bg.jpg'],
         y: 0,
         init: function () {
-            this.img.width = this.img.width * sw;
-            this.img.height = this.img.height * sw;
+            //this.img.width = this.img.width * sw;
+            //this.img.height = this.img.height * sw;
             ctx.drawImage(this.img, 0, this.y, this.img.width, this.img.height);
         },
         scrolling: function () {
             ctx.drawImage(this.img, 0, this.y, this.img.width, this.img.height);
-            ctx.drawImage(this.img, 0, this.y - this.img.height + 10, this.img.width, this.img.height);
-            this.y >= h ? this.y = 0 : this.y ++;
+            ctx.drawImage(this.img, 0, this.y - this.img.height +10, this.img.width, this.img.height);
+            this.y >= h ? this.y = this.y - this.img.height +10 : this.y ++;
         }
     };
+    bg.init();
     var me = { // 我方战机
         img: oimgarr['me.png'],
         x: parseInt(w / 2),
         y: h,
+        cartridgearr: [],
+        count: 0,
         init: function () {
             this.img.width = this.img.width * sw;
             this.img.height = this.img.height * sw;
@@ -58,12 +66,29 @@ function run() {
         },
         moving: function () { // 移动我方战机
             ctx.drawImage(this.img, this.x, this.y, this.img.width, this.img.height);
+            this.count ++;
+        },
+        shoot: function () {
+            this.cartridgearr.map(function (c,i) {
+                if(c.y > 0) {
+                    ctx.drawImage(c.img, c.x, c.y, c.img.width, c.img.height);
+                    c.y = c.y - 4;
+                }
+                else{
+                    me.cartridgearr.splice(i,1); // 删除超过顶部位置的子弹
+                }
+            });
+            if (this.count == 10){
+                this.cartridgearr.push(new cartridge());
+                this.count = 0;
+            }
         }
     };
     me.init();
     setInterval(function () {
         bg.scrolling();
         me.moving();
+        me.shoot();
     },10);
     c.addEventListener('mousemove', function (e) {
         me.setSite(e.pageX, e.pageY);
