@@ -37,9 +37,11 @@
       <file leaf-file-name="plane.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/plane.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.97703546" vertical-offset="1776" max-vertical-offset="2784">
-              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-              <folding />
+            <state vertical-scroll-proportion="0.51746035" vertical-offset="2703" max-vertical-offset="4176">
+              <caret line="146" column="33" selection-start-line="146" selection-start-column="33" selection-end-line="146" selection-end-column="33" />
+              <folding>
+                <element signature="e#1496#2085#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -246,7 +248,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2568">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#1496#2085#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -262,7 +266,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2568">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#1496#2085#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -278,7 +284,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#1496#2085#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -301,7 +309,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="216">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#1496#2085#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -382,21 +392,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/plane1_die1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/plane1_die2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/plane1_die3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/plane2.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -457,6 +452,21 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/plane1_die3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/plane1_die2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/plane1_die1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/plane.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.181818" vertical-offset="0" max-vertical-offset="648">
@@ -467,9 +477,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/plane.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.97703546" vertical-offset="1776" max-vertical-offset="2784">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding />
+        <state vertical-scroll-proportion="0.51746035" vertical-offset="2703" max-vertical-offset="4176">
+          <caret line="146" column="33" selection-start-line="146" selection-start-column="33" selection-end-line="146" selection-end-column="33" />
+          <folding>
+            <element signature="e#1496#2085#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
