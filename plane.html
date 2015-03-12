@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0,user-scalable=no">
+    <title>网页版微信打飞机游戏</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: #333;
+            font-family: cursive;
+        }
+        .c-plane {
+            /*border: 2px solid black;*/
+        }
+        .score {
+            width: 100%;
+            max-width: 480px;
+            text-align: left;
+            font-size: 25px;
+            padding-top: 10px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            z-index: 1;
+        }
+        .score span {
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="score">
+        <span id="score">0</span>
+    </div>
+    <canvas id="c-plane" class="c-plane" height="800" width="480"></canvas>
+    <script type="text/javascript" src="js/plane.js"></script>
+</body>
+</html>
